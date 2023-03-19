@@ -5,8 +5,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "deploy": "netlify deploy",
-    "build": "quasar build",
-    "dev":"netlify build"
+    "build": "netlify build"
   },
   "author": "",
   "license": "ISC",
