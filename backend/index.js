@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 1111
 
 app.get('/posts', (request, response) => {
   let posts = [
@@ -17,4 +17,4 @@ app.get('/posts', (request, response) => {
 
 })
 
-app.listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 1111)
