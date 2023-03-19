@@ -16,4 +16,4 @@ app.get('/posts', (request, response) => {
 
 })
 
-app.listen(process.env.PORT || 3005)
+app.listen( 3000)
