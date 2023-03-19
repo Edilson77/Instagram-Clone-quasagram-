@@ -29,7 +29,7 @@
     }
   },
   "exclude": [
-    "dist",
+    "backend/dist/dist",
     ".quasar",
     "node_modules"
   ]
