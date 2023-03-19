@@ -1,20 +1,19 @@
 const express = require('express')
 const app = express()
-const port = 1111
 
 app.get('/posts', (request, response) => {
-  let posts = [
+  let posts =[
     {
-    caption: 'Golden Gate Bridge',
-    location: 'Maputo, Mozambique'
-  },
-  {
-    caption: 'Maputo Eye',
-    location: 'Maputo, Maputo-Cidade'
-  }
-]
+      caption: 'Golden Gate Bridge',
+      location: 'Maputo, Mozambique'
+    },
+    {
+      caption: 'Maputo Eye',
+      location:'Maputo'
+    }
+  ]
   response.send(posts)
 
 })
 
-app.listen(process.env.PORT || 1111)
+app.listen(3005)
